@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
-using SalesWebMVC.Data;
+using SalesWebMVC.Models;
 
 namespace SalesWebMVC
 {
