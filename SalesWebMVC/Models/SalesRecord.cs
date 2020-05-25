@@ -11,7 +11,7 @@ namespace SalesWebMVC.Models
         public int Id { get; set; }
         public DateTime Date { get; set; }
         public double Amount { get; set; }
-        public SaleStatus StatusProperty { get; set; }
+        public SaleStatus Status { get; set; }
 
         public Seller Seller { get; set; }
 
@@ -22,7 +22,7 @@ namespace SalesWebMVC.Models
             Id = id;
             Date = date;
             Amount = amount;
-            StatusProperty = statusProperty;
+            Status = statusProperty;
             Seller = seller;
         }
     }
